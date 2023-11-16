@@ -10,8 +10,8 @@
                 
             </ul>
             <div class="text-end">
-                <button type="button" class="btn btn-outline-light me-2">Login</button>
-                <button type="button" class="btn btn-warning">Register</button>
+                <a href="./login.php"> <button type="button" class="btn btn-outline-light me-2">Login</button> </a>
+                <a href="./register.php"> <button type="button" class="btn btn-warning">Register</button> </a>
             </div>
         </div>
     </div>

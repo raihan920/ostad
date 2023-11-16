@@ -57,7 +57,7 @@ public function introduce() {
 
  
 
-Example:
+// Example:
 
 $person = new Person("John", 30);
 
@@ -65,17 +65,18 @@ $person->introduce();
 
  
 
-Expected Output:
+// Expected Output:
 
-My name is John and I am 30 years old.
+// My name is John and I am 30 years old.
 
 
 
-2. Create a child class called 'Student' that extends the 'Person' class. The 'Student' class should have an additional attribute called 'mark' (string) and an additional method called 'calculate_grade_percentage()' that returns the mark percentage (string). Assume that the mark is out of 100.
+// 2. Create a child class called 'Student' that extends the 'Person' class. The 'Student' class should have an additional attribute called 'mark' (string) and an additional method called 'calculate_grade_percentage()' that returns the mark percentage (string). Assume that the mark is out of 100.
 
  
 
-Template: (This is a template, so implement the things as directed above.)
+// Template: (This is a template, so implement the things as directed above.)
+?>
 
 <?php
 
@@ -115,9 +116,9 @@ public function calculate_grade_percentage() {
 
 }
 
-Example:
+// Example:
 
-$student = new Student("Robert", 18, “85”);
+$student = new Student("Robert", 18, "85");
 
 $student->introduce();
 
@@ -127,8 +128,8 @@ echo "My grade percentage is {$gradePercentage}\n";
 
  
 
-Expected Output:
+// Expected Output:
 
-My name is Alice, I am 18 years old.
+// My name is Alice, I am 18 years old.
 
-My grade percentage is 85%.
+// My grade percentage is 85%.
